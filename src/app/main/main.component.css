@@ -1,0 +1,30 @@
+#musicbox {
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  background-color: white;
+  background-image: url(../../assets/bg.jpg);  
+  background-size: 150%;
+  background-repeat: no-repeat;
+  /* background-blend-mode: luminosity; */
+  animation-name: rotatedisk;
+  animation-duration: 300s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+#bg{
+    background-image: url(../../assets/bg.jpg);
+}
+@keyframes rotatedisk {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
+}
+
+#playbox{
+
+    border-radius: 30px;
+}
